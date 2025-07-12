@@ -1,0 +1,94 @@
+const int pinG1 = 1;
+const int pinY1 = 2;
+const int pinR1 = 3;
+const int pinG2 = 4;
+const int pinY2 = 5;
+const int pinR2 = 6;
+const int pinG3 = 7;
+const int pinY3 = 8;
+const int pinR3 = 9;
+
+  
+void setup()
+{
+  pinMode(pinG1, OUTPUT);
+  pinMode(pinY1, OUTPUT);
+  pinMode(pinR1, OUTPUT);
+  pinMode(pinG2, OUTPUT);
+  pinMode(pinY2, OUTPUT);
+  pinMode(pinR2, OUTPUT); 
+  pinMode(pinG3, OUTPUT);
+  pinMode(pinY3, OUTPUT);
+  pinMode(pinR3, OUTPUT);
+
+}
+
+
+void loop()
+{  
+  digitalWrite(pinG1, HIGH);
+  digitalWrite(pinY1, LOW);
+  digitalWrite(pinR1, LOW);
+  digitalWrite(pinG2, LOW);
+  digitalWrite(pinY2, LOW);
+  digitalWrite(pinR2, HIGH);
+  digitalWrite(pinG3, LOW);
+  digitalWrite(pinY3, LOW);
+  digitalWrite(pinR3, HIGH);
+  delay(5000);
+
+  digitalWrite(pinG1, LOW);
+  digitalWrite(pinY1, HIGH);
+  digitalWrite(pinR1, LOW);
+  digitalWrite(pinG2, LOW);
+  digitalWrite(pinY2, LOW);
+  digitalWrite(pinR2, HIGH);
+  digitalWrite(pinG3, LOW);
+  digitalWrite(pinY3, LOW);
+  digitalWrite(pinR3, HIGH);
+  delay(1000);
+
+  digitalWrite(pinG1, LOW);
+  digitalWrite(pinY1, LOW);
+  digitalWrite(pinR1, HIGH);
+  digitalWrite(pinG2, HIGH);
+  digitalWrite(pinY2, LOW);
+  digitalWrite(pinR2, LOW);
+  digitalWrite(pinG3, LOW);
+  digitalWrite(pinY3, LOW);
+  digitalWrite(pinR3, HIGH);
+  delay(5000);   
+
+  digitalWrite(pinG1, LOW);
+  digitalWrite(pinY1, LOW);
+  digitalWrite(pinR1, HIGH);
+  digitalWrite(pinG2, LOW);
+  digitalWrite(pinY2, HIGH);
+  digitalWrite(pinR2, LOW);
+  digitalWrite(pinG3, LOW);
+  digitalWrite(pinY3, LOW);
+  digitalWrite(pinR3, HIGH);
+  delay(1000);
+
+  digitalWrite(pinG1, LOW);
+  digitalWrite(pinY1, LOW);
+  digitalWrite(pinR1, HIGH);
+  digitalWrite(pinG2, LOW);
+  digitalWrite(pinY2, LOW);
+  digitalWrite(pinR2, HIGH);
+  digitalWrite(pinG3, HIGH);
+  digitalWrite(pinY3, LOW);
+  digitalWrite(pinR3, LOW);
+  delay(5000);  
+
+  digitalWrite(pinG1, LOW);
+  digitalWrite(pinY1, LOW);
+  digitalWrite(pinR1, HIGH);
+  digitalWrite(pinG2, LOW);
+  digitalWrite(pinY2, LOW);
+  digitalWrite(pinR2, HIGH);
+  digitalWrite(pinG3, LOW);
+  digitalWrite(pinY3, HIGH);
+  digitalWrite(pinR3, LOW);
+  delay(1000); 
+}
